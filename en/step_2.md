@@ -16,13 +16,14 @@ Select Log in from the top menu.
 
 In the screen that appears, choose **Sign Up** if you are creating your own account and follow the prompts to create a new account.
 
-Choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen
+Choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
 
 --- /task ---
 
 --- task ---
 
-.
+Select Go to your Projects.
+![Image of the blue go to your projects button on machine learning for kids](images/go2projects.png)
 
 
 --- /task ---
