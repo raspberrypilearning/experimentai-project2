@@ -7,70 +7,21 @@ In this project, <mark> short project description </mark>
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
 </p>
+## Introduction
+In this stage of the ExperimentAI Music quest, you will build the Scratch program that allows you to start playing and classifying music.
 
-<mark>Objectives in language that learners will understand</mark>
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+If you haven’t done much coding with Scratch before, get up to speed by trying our short warm-up project, [Space Talk](https://projects.raspberrypi.org/en/projects/space-talk){:target="_blank"}.
+</p>
 
-You will:
-+ 
-+ 
-+
 
-<mark>Image of many different examples in a strip</mark>
+![A screenshot of a finished classification application with three colourful sprites showing different playlists and a bright background. You can see statistics for different values on the right - BPM, energy,danceability, speechiness and happiness.](images/wellness_screen_kpop.png)
 
---- no-print ---
+### You will:
++ Create or Log in to your ML4Kids account and create a new machine learning model
++ Create a Scratch project which:
++ Searches an online music database by genre and returns random results in that genre
++ Allows the user to classify songs
++ Allows the user to click a sprite that rejects a song entirely and labels it as such in the model
 
---- task ---
-
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-
-### Try it 
-
-Description of what to do or think about when looking at the example.
-
-</div>
-<div>
-**Gobo watching**: [See inside](https://scratch.mit.edu/projects/495141114/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495141114/?autostart=false" frameborder="0"></iframe>
-</div>
-
-</div>
-
---- /task ---
-
-### Get inspiration 
-
-You are going to make some design decisions to ...
-
---- task ---
-
-Explore these example projects to get more ideas:
-
-**Don't eat donut**: [See inside](https://scratch.mit.edu/projects/495865093/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865093/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Under the sea**: [See inside](https://scratch.mit.edu/projects/495866460/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495866460/?autostart=false" frameborder="0"></iframe>
-</div>
-
-**Sporg**: [See inside](https://scratch.mit.edu/projects/495865892/editor){:target="_blank"}
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/495865892/?autostart=false" frameborder="0"></iframe>
-</div>
---- /task ---
---- /no-print ---
-
---- print-only ---
-
-### Get inspiration 
-
-You are going to make some design decisions to create your character. See inside example projects in [Scratch 1: Googly eye character - Examples](https://scratch.mit.edu/studios/29029028/){:target="_blank"} Scratch studio.
-
-<mark>one image file per example</mark>
-
---- /print-only ---
 
