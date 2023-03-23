@@ -23,7 +23,7 @@ From the `Variables`{:class="blocks3variables"} menu, drag the small, round, ora
 when green flag clicked
 ask (What genre do you want?) and wait
 set [genre] to (answer)
-random song from genre (genre :: variable) :: #338854
+random song from genre (genre) :: #338854
 ```
 
 --- /task ---
@@ -36,7 +36,7 @@ From the `Spotify`{:class="blocks3custom :: 338854"} menu, add a `play preview`{
 when green flag clicked
 ask (What genre do you want?) and wait
 set [genre] to (answer)
-random song from genre (genre :: variable) :: #338854
+random song from genre (genre) :: #338854
 play preview :: #338854
 ```
 --- /task ---
