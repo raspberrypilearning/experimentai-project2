@@ -108,11 +108,11 @@ set [genre] to (0)
 
 --- task ---
 
-Back in the blue `Sensing`{:class="blocks3sensing"} menu, drag the round blue `answer`{:class="blocks3sensing"} bubble across and place it in the hole in the set [genre] to (0) block, replacing the 0:
+Back in the blue `Sensing`{:class="blocks3sensing"} menu, drag the round blue `answer`{:class="blocks3sensing"} bubble across and place it in the hole in the `set [genre] to (0)`{class="blocks3variables"} block, replacing the 0:
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 set [genre] to (answer)
 ```
 

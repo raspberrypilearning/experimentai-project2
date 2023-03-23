@@ -8,9 +8,9 @@ From the `Spotify`{:class="blocks3custom::338854"} menu, add a `random song from
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 set [genre] to (answer)
-random song from genre (pop) :: #338854
+random song from genre [pop] :: #338854
 ```
 
 --- /task ---
