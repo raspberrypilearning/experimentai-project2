@@ -1,4 +1,4 @@
-## Collect song data
+## Pick a genre to search
 
 Create the code which will find songs on Spotify, collect their audio features data and play them for you to label in your model.
 
@@ -70,7 +70,77 @@ when green flag clicked
 
 --- task ---
 
+In the blue `Sensing`{:class="block3sensing"}  menu, add an `ask (What's your name?) and wait`{:class="block3sensing"} block:
 
+```blocks3
+when green flag clicked
+ask (What's your name?) and wait
+```
 
 --- /task ---
 
+--- task ---
+
+Change the question text to something you like. Ask your user to enter a genre, to start the search. You could say something like:
++ What genre would you like?
++ What are we listening to today?
++ Enter music genre to start!
++ What kind of music do you want to hear?
+
+```blocks3
+when green flag clicked
+ask (What genre do you want?) and wait
+```
+
+--- /task ---
+
+--- task ---
+
+In the orange `Variables`{:class="blocks3variables"} menu, add a `set [genre] to (0)`{:class="blocks3variables"} block, and make sure the pull-down menu in the block is set to **genre**.
+
+```blocks3
+when green flag clicked
+ask (What genre do you want?) and wait
+set [genre] to (0)
+```
+
+--- /task ---
+
+--- task ---
+
+Back in the blue `Sensing`{:class="blocks3sensing"} menu, drag the round blue `answer`{:class="blocks3sensing"} bubble across and place it in the hole in the set [genre] to (0) block, replacing the 0:
+
+```blocks3
+when green flag clicked
+ask (What genre do you want?) and wait
+set [genre] to (answer)
+```
+
+--- /task ---
+
+--- task ---
+
+**Click the green flag.**
+
+Your script will run, and a prompt will appear, asking you what genre of music you want.
+
+--- /task ---
+
+--- task ---
+
+**Type** something into the prompt and press **Enter**.
+
+You should see your genre readout in the stage change to what you just typed. 
+
+--- collapse ---
+---
+title: Pro Tip - getting the right genre
+---
+
+You can only use genres that the music database recognises in the answer field. If you enter something it doesn’t recognise, your program won’t play any music. (That includes bad spelling and typos!)
+
+--- /collapse ---
+
+--- /task ---
+
+In the next step, you will use the green Spotify blocks to search the online music database for songs to label. 
