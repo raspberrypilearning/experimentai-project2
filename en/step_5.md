@@ -74,7 +74,7 @@ In the blue `Sensing`{:class="block3sensing"}  menu, add an `ask (What's your na
 
 ```blocks3
 when green flag clicked
-ask (What's your name?) and wait
+ask [What's your name?] and wait
 ```
 
 --- /task ---
@@ -89,7 +89,7 @@ Change the question text to something you like. Ask your user to enter a genre, 
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 ```
 
 --- /task ---
@@ -100,7 +100,7 @@ In the orange `Variables`{:class="blocks3variables"} menu, add a `set [genre] to
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 set [genre] to (0)
 ```
 
