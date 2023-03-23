@@ -10,13 +10,8 @@ steps:
 - title: Introduction
 - title: Create your machine learning model
 - title: Add values to your model
-- title: Make a Scratch application to classify songs
-- title: Reflection
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
+- title: Make a Scratch application
+- title: Collect song data
 - title: Upgrade your project
 - title: Share
 - title: What next?
