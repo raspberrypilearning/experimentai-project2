@@ -1,6 +1,6 @@
 ## Pick a genre to search
 
-Create the code which will find songs on Spotify, collect their audio features data and play them for you to label in your model.
+Create the code which will choose the genre to find songs on Spotify.
 
 --- task ---
 
