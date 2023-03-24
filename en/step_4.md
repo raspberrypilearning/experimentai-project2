@@ -46,9 +46,10 @@ On the next page, select Scratch 3
 
 --- /task ---
 
-A special fork of Scratch will open in a new tab. When it does, you will see an item in the left-hand menu with the same name as your machine learning project.
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
+A special fork of Scratch will open in a new tab. When it does, you will see an item in the left-hand menu with the same name as your machine learning project.
+
 The new grey blocks you can see in that menu allow you to access your machine learning model from within your project:
 </div>
 <div>
