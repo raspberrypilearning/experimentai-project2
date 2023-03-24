@@ -143,4 +143,34 @@ title: Your program only plays one song at a time
 
 --- /collapse ---
 
-In the next step we will add a 'Skip track' feature to your application so you don't have to classify repeated songs twice.
+--- collapse ---
+---
+title: Bonus Feature - Skip repeated tracks
+---
+
+--- task ---
+
+From the Events menu, add a `When [space] key pressed block`{:class="block3events"} to your workspace:
+
+```blocks3
+when [space v] key pressed
+```
+
+--- /task ---
+
+--- task ---
+
+From the Events menu, add a `broadcast [Find Song]`{:class="block3events"} block to the bottom.
+
+```blocks3
+when [space v] key pressed
+broadcast [Find song v]
+```
+
+--- /task ---
+
+That's it! You can now use the space bar to skip to the next song if you've already classified the one playing.
+
+**Pro tip:** if you find you’re starting to get a lot of songs you’ve heard before, try changing genre for a while.
+
+--- /collapse ---

@@ -14,4 +14,7 @@ steps:
 - title: Pick a genre to search
 - title: Collect song data
 - title: Keep on searching
+- title: Classify song data
+- title: Link to your ML model
+- title: Design your interface
 - title: What next?
