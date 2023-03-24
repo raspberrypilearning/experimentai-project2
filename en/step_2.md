@@ -30,7 +30,7 @@ Select Go to your Projects.
 --- task ---
 
 Select Add a new project.
-![Image of a grey button which reads 'Go to your projects'](images/go2projects.png)
+![Image of a grey button which reads 'Go to your projects'](images/add_new_project.png)
 
 --- /task ---
 
@@ -84,7 +84,7 @@ On the flip side; the more audio features you use, the more variables you will n
 
 --- /task ---
 
-<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+<p style='border-left: solid; border-width:10px; border-color: #ffaeb0; background-color: aliceblue; padding: 10px;'>
 **HOLD UP!**
 
 You can’t move forward from this point until you know what your application's **audio features** are - you need to know this to be able to create a machine learning model!

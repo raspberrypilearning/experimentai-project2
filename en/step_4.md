@@ -52,7 +52,7 @@ A special fork of Scratch will open in a new tab. When it does, you will see an 
 The new grey blocks you can see in that menu allow you to access your machine learning model from within your project:
 </div>
 <div>
-![Image showing several Scratch block menus, with the final one being titled MusicWellness with the machine learning for kids logo](images/model_blocks_menu.png){:width="300px"}
+![Image showing several Scratch block menus, with the final one being titled MusicWellness with the machine learning for kids logo](images/model_blocks_menu.png){:width="100px"}
 </div>
 </div>
 
