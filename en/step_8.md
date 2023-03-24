@@ -116,7 +116,7 @@ set colour effect to (0)
 
 --- collapse ---
 ---
-title: Pro tip: Coding visual feedback 
+title: Pro tip - Coding visual feedback 
 ---
 
 Remember to add the `wait`{:class="block3control"} block or your user won’t see the feedback; it will happen too fast!
