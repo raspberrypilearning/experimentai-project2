@@ -1,6 +1,7 @@
 ## Pick a genre to search
-
-Create the code which will choose the genre to find songs on Spotify.
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In this step, you will create the code that searches the music database for songs and a list of variables which represent the chosen audio features of each song.
+</p>
 
 --- task ---
 

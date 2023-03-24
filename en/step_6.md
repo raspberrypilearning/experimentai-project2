@@ -1,6 +1,9 @@
 ## Collect song data
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In this step, you will create a variable for each of the audio features you want to use in your model and use them to store song data.
+</p>
 
-Now that you can search a genre in the music database, you need to be able to send the audio features data to your model. To do that, store each audio feature as the variable you created of the same name.
+Now that you can search a genre in the music database, you need to be able to send the audio features data to your model. To do that, you need to store each audio feature as the variable you created of the same name.
 
 --- task ---
 

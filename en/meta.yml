@@ -8,13 +8,13 @@ copyedit: false
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
-- title: Create your machine learning model
-- title: Add values to your model
+- title: Create a machine learning model
+- title: Add values to the model
 - title: Make a Scratch application
 - title: Pick a genre to search
 - title: Collect song data
 - title: Keep on searching
-- title: Classify song data
+- title: Design your interface
 - title: Link to your ML model
 - title: Design your interface
 - title: What next?

@@ -1,19 +1,25 @@
-## What next?
+## Design your interface
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In this step, you will choose a backdrop for your application and add sprites for each of your playlist classes.  
+</p>
 
-If you are following the [PathName](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+![Image showing four labels for the classes in a machine learning model titled reject, mental focus, mood boost and get active](images/labels_wellness.png)
 
---- print-only ---
+Now that you have an application that can search the music database, return a song and show its audio features data, the next step is to **label** that song’s data in your model with your playlist names from Stage 1. This labelling of data is called **classification**.
 
-![ProjectName project](images/projectname-project.png)
+It works like this:
 
---- /print-only ---
+1. You listen to a song and decide if you like it. If you don’t, label it as a `reject`.
+2. If you do like it, decide which of your playlists it fits into and label it with that playlist name.
 
---- no-print ---
+When you label a song’s data and add it to a class, you are sending the audio features values for that song back to your model as **training data**. The model doesn’t record the song name, artist or which album it comes from - only the number values of the song’s audio features go into training your model.
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
-</div>
+![Image showing four classes in a machine learning model, populated with data. They are titled reject, mental focus, mood boost and get active](images/training_data_labeled.png)
 
---- /no-print ---
+As each label/class in your model collects more data, the model can more accurately predict (guess) other sets of numbers that might fit into a specific class (songs that sound similar). 
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+You now need to add the part of your program that takes the data for the song you can hear and labels it in your model. Once you have this function working, you will be able to start listening to and classifying loads of new music! 
+
+Each playlist you want to predict songs for will need its own sprite. This will be the way we classify our song data as we are listening - add a sprite for each of your playlists and one for songs you don’t like, then as you are listening you can click the sprite for the playlist you feel the current song belongs to.
+
+

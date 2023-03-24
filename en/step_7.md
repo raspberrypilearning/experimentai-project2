@@ -1,4 +1,7 @@
 ## Keep on searching
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In this step, you will create a new broadcast message and use it to create a loop which will repeat the search for songs.
+</p>
 
 Right now, you have an application that can play a song and find out what the audio features of that song are. 
 
