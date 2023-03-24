@@ -14,8 +14,8 @@ You could take a look at:
 Why not add some more features to your application to improve the UX?
 
 You could write a script to handle:
-+ **Changeable search:** Add a script to change or randomly select genre without having to stop the application
-+ **Wider search:** Add a block to randomly select from a list of genres instead of just one
++ **Changeable search:** Add a script to change genre without having to stop the application
++ **Wider search:** Add a script to randomly select from a list of genres instead of just one
 + **Faster search:** Add a script which plays the sample for less than the full 30 seconds
 
-
+In the next stage of this ExperimentAI quest, you will get to listen to loads of new music and train your ML model on your musical tastes!
