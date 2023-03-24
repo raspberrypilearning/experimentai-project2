@@ -1,6 +1,7 @@
 ## Pick a genre to search
-
-Create the code which will choose the genre to find songs on Spotify.
+<p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
+In this step, you will create the code that searches the music database for songs and a list of variables which represent the chosen audio features of each song.
+</p>
 
 --- task ---
 
@@ -22,7 +23,7 @@ In the popup, name the new variable genre and select OK.
 
 ![](images/genre_make_variable.png)
 
-You will see a few new orange blocks appear in the Variables{:class="block3variables"} menu.
+You will see a few new orange blocks appear in the `Variables`{:class="block3variables"} menu.
 
 --- /task ---
 
@@ -74,7 +75,7 @@ In the blue `Sensing`{:class="block3sensing"}  menu, add an `ask (What's your na
 
 ```blocks3
 when green flag clicked
-ask (What's your name?) and wait
+ask [What's your name?] and wait
 ```
 
 --- /task ---
@@ -89,18 +90,18 @@ Change the question text to something you like. Ask your user to enter a genre, 
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 ```
 
 --- /task ---
 
 --- task ---
 
-In the orange `Variables`{:class="blocks3variables"} menu, add a `set [genre] to (0)`{:class="blocks3variables"} block, and make sure the pull-down menu in the block is set to **genre**.
+In the orange `Variables`{:class="block3variables"} menu, add a `set [genre] to (0)`{:class="block3variables"} block, and make sure the pull-down menu in the block is set to **genre**.
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
+ask [What genre do you want?] and wait
 set [genre] to (0)
 ```
 
@@ -108,12 +109,12 @@ set [genre] to (0)
 
 --- task ---
 
-Back in the blue `Sensing`{:class="blocks3sensing"} menu, drag the round blue `answer`{:class="blocks3sensing"} bubble across and place it in the hole in the set [genre] to (0) block, replacing the 0:
+Back in the blue `Sensing`{:class="block3sensing"} menu, drag the round blue `answer`{:class="block3sensing"} bubble across and place it in the hole in the `set [genre] to (0)`{:class="block3variables"} block, replacing the 0:
 
 ```blocks3
 when green flag clicked
-ask (What genre do you want?) and wait
-set [genre] to (answer)
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
 ```
 
 --- /task ---
@@ -142,5 +143,103 @@ You can only use genres that the music database recognises in the answer field. 
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3custom::338854"} block to the bottom of your script
+
+```blocks3
+when green flag clicked
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
+random song from genre [pop] :: #338854
+```
+
+--- /task ---
+
+--- task ---
+
+From the `Variables`{:class="block3variables"} menu, drag the small, round, orange `genre`{:class="block3variables"} bubble across and place it inside the hole in the `random song from genre (pop)`{:class="block3custom :: 338854"} block, replacing the word pop:
+
+```blocks3
+when green flag clicked
+ask (What genre do you want?) and wait
+set [genre] to (answer)
+random song from genre (genre) :: #338854
+```
+
+--- /task ---
+
+--- task ---
+
+From the `Spotify`{:class="block3custom :: 338854"} menu, add a `play preview`{:class="block3custom :: 338854"} block to the bottom of your script:
+
+```blocks3
+when green flag clicked
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
+random song from genre (genre) :: #338854
+play preview :: #338854
+```
+--- /task ---
+
+--- task ---
+
+**Compare** your code with the example code above and make sure everything is exactly the same.
+
+--- /task ---
+
+--- task ---
+
+**Click the green flag** and enter a genre into the prompt. 
+
+**Press Enter**. You should hear music playing from the genre you entered!
+
+--- /task ---
+
+### Debug:
+
+**Check the song information readouts when you run your program. Are they showing any information, or are they blank?**
+
+--- collapse ---
+---
+title: Pro tip - song information display
+---
+
++ Show the song information by clicking the ticks next to the bubbles in the Spotify menu
++ Double-click the readouts for the song information to change their style
+
+![Image showing several green bubble Scratch inserts which read song title, artist and album ](images/spotify_bubbles.png)
+
+--- /collapse ---
+
+**The readouts are blank:** your program hasn’t found a song on the music database.
+
+**The readouts show information about the song, artist and album:** your program is playing a song, but you can’t hear it.
+ 
+ --- collapse ---
+ ---
+ title: Your program hasn’t found a song on the music database
+ ---
+ 
++ Have you correctly spelled the genre you want to search? Misspellings will result in your search returning nothing.
++ Have you inserted the genre bubble in the random song from genre block? It should look like this: 
+
+```blocks3
+random song from genre (genre) :: #338854
+```
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Your program is playing a song, but you can’t hear anything
+---
+
++ Make sure your headphones are properly plugged in (if you have them), and that your sound is turned on.
+
+
+--- /collapse ---
+
 
 In the next step, you will use the green Spotify blocks to search the online music database for songs to label. 

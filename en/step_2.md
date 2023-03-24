@@ -44,23 +44,23 @@ Give the project a name and set it to recognise numbers.
 Now that you have a project that identifies numbers, you need to define what numbers you want it to identify: the audio features data for each song.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Musical Audio Features</span>
-
+<span style="color: #0faeb0">Musical Audio Features</span> <br>
+<br>
 **acousticness** - A confidence measure from 0.0 to 1.0 of whether the track is acoustic - which means the track doesn’t use electronic instruments. The closer to 1.0 the acousticness value is, the less likely it uses electronic instruments.
-
+<br><br>
 **danceability** - Danceability describes how suitable a track is for dancing! A value of 0.0 is least danceable and 1.0 is most danceable.
-
+<br><br>
 **energy** - Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, high energy tracks feel fast, loud, and noisy.
-
+<br><br>
 **instrumentalness** - Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks like podcasts are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. 
-
+<br><br>
 **liveness** - Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed in front of people at a concert rather than in a studio.
-
+<br><br>
 **loudness** - The overall loudness or volume of a track in decibels (dB). 
 speechiness - Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the speechiness value. 
-
+<br><br>
 **bpm** (aka. tempo) - The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
-
+<br><br>
 **happiness** (aka. valence) - A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high happiness sound more positive (e.g. happy, cheerful, euphoric), while tracks with low happiness sound more negative (e.g. sad, depressed, angry).
 
 </p>
