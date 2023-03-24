@@ -67,7 +67,7 @@ Select the blue Extensions button at the bottom left of your screen.
 
 --- task ---
 
-Scroll down the page and select the Spotify extension.
+Scroll down the page and select the `Spotify`{:class="block3flag"} extension.
 
 You will see it add several new green blocks, allowing you access to Spotify’s music and database.
 ![IMage showing the spotify extension tile in the scratch extensions menu. It reads 'get data about songs from spotify'.](images/spotify_extension.png)
@@ -91,7 +91,6 @@ A hack you can use is to save your work to your computer often. Once you have th
 ![Image showing the Scratch file menu with the Load from your computer option highlighted](images/load_menu.png)
 
 Save your work as often as you can to make sure you don’t lose any progress!
-
 
 --- /collapse ---
 

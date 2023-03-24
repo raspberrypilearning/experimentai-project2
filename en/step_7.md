@@ -9,7 +9,7 @@ In order to create enough data to train your model, you’ll need to listen to a
 
 --- task ---
 
-In the search script, drag the `random song from genre (genre)`{:class="block3custom"} block away from the `set [genre] to (answer)`{:class="block3variables"} block and put it down next to it in your workspace:
+In the search script, drag the `random song from genre (genre)`{:class="block3flag"} block away from the `set [genre] to (answer)`{:class="block3variables"} block and put it down next to it in your workspace:
 
 ![An image showing two halves of a detached script](images/repeat_search1.png)
 
