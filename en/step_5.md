@@ -212,11 +212,15 @@ title: Pro tip - song information display
 
 --- /collapse ---
 
-+ The readouts are blank: your program hasn’t found a song on the music database.
+**The readouts are blank:** your program hasn’t found a song on the music database.
 
-+ The readouts show information about the song, artist and album: your program is playing a song, but you can’t hear it.
+**The readouts show information about the song, artist and album:** your program is playing a song, but you can’t hear it.
  
-**Your program hasn’t found a song on the music database:** 
+ --- collapse ---
+ ---
+ title: Your program hasn’t found a song on the music database
+ ---
+ 
 + Have you correctly spelled the genre you want to search? Misspellings will result in your search returning nothing.
 + Have you inserted the genre bubble in the random song from genre block? It should look like this: 
 
@@ -224,9 +228,17 @@ title: Pro tip - song information display
 random song from genre (genre) :: #338854
 ```
 
-**Your program is playing a song, but you can’t hear anything:**
+--- /collapse ---
+
+--- collapse ---
+---
+title: Your program is playing a song, but you can’t hear anything
+---
+
 + Make sure your headphones are properly plugged in (if you have them), and that your sound is turned on.
 
+
+--- /collapse ---
 
 
 In the next step, you will use the green Spotify blocks to search the online music database for songs to label. 

@@ -126,6 +126,27 @@ set [speechiness v] to (Song [speechiness v] :: #338854)
 
 --- task ---
 
+Replace the play preview block at the end of your script:
+
+```blocks3
+when green flag clicked
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
+random song from genre (genre) :: #338854
+set [acousticness v] to (spotify [acousticness score v] :: #338854)
+set [energy v] to (Song [energy v] :: #338854)
+set [happiness v] to (Song [happiness v] :: #338854)
+set [instrumentalness v] to (Song [instrumentalness v] :: #338854)
+set [loudness v] to (Song [loudness v] :: #338854)
+set [speechiness v] to (Song [speechiness v] :: #338854)
+play preview :: #338854
+```
+
+--- /task ---
+
+
+--- task ---
+
 **Click the Green Flag**.
 
 You should hear music, and see the song’s audio features displayed in the readouts on your Stage:
@@ -135,7 +156,5 @@ You should hear music, and see the song’s audio features displayed in the read
 --- /task ---
 
 In the next step, you will use broadcasts in your code to repeat the search for songs on the music database.
-
-
 
 --- save ---
