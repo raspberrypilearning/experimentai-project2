@@ -20,10 +20,48 @@ play preview :: #338854
 
 --- task ---
 
-From the `Variables`{:class="blocks3variables"} menu, add a `set [variable] to (0)`{:class="blocks3variables"} block to your script, to the bottom of the `random song from genre (genre)`{:class="blocks3custom"} block.
+From the `Variables`{:class="block3variables"} menu, add a `set [variable] to (0)`{:class="block3variables"} block to your script, to the bottom of the `random song from genre (genre)`{:class="block3custom"} block.
+
+```blocks3
+when green flag clicked
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
+random song from genre (genre) :: #338854
+set [acousticness v] to (0)
+```
 
 --- /task ---
 
+--- task ---
+
+From the Spotify menu, take the Song (acousticness score) bubble and place it inside the set [variable] to (0) block, replacing the 0:
+![Image showing a rounded spotify audio features bubble that has a pull-down menu which reads acousticness](images/acousticness_score.png)
+
+```blocks3
+when green flag clicked
+ask [What genre do you want?] and wait
+set [genre v] to (answer)
+random song from genre (genre) :: #338854
+set [acousticness v] to (spotify [acousticness score v] :: #338854)
+```
+
+--- /task ---
+
+--- task ---
+
+Change the pull-down menu in the orange variable block and the pull-down in the green bubble to match one another:
+
+```blocks3
+set [acousticness v] to (spotify [acousticness score v] :: #338854)
+```
+
+--- /task ---
+
+--- task ---
+
+
+
+--- /task ---
 
 
 

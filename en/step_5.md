@@ -113,7 +113,7 @@ Back in the blue `Sensing`{:class="block3sensing"} menu, drag the round blue `an
 ```blocks3
 when green flag clicked
 ask [What genre do you want?] and wait
-set [genre] to (answer)
+set [genre v] to (answer)
 ```
 
 --- /task ---
@@ -150,7 +150,7 @@ From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from 
 ```blocks3
 when green flag clicked
 ask [What genre do you want?] and wait
-set [genre] to (answer)
+set [genre v] to (answer)
 random song from genre [pop] :: #338854
 ```
 
@@ -176,7 +176,7 @@ From the `Spotify`{:class="block3custom :: 338854"} menu, add a `play preview`{:
 ```blocks3
 when green flag clicked
 ask [What genre do you want?] and wait
-set [genre] to (answer)
+set [genre v] to (answer)
 random song from genre (genre) :: #338854
 play preview :: #338854
 ```
