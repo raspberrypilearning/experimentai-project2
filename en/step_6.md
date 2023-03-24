@@ -18,6 +18,12 @@ play preview :: #338854
 ```
 --- /task ---
 
+--- task ---
+
+From the `Variables`{:class="blocks3variables"} menu, add a `set [variable] to (0)`{:class="blocks3variables"} block to your script, to the bottom of the `random song from genre (genre)`{:class="blocks3custom"} block.
+
+--- /task ---
+
 
 
 

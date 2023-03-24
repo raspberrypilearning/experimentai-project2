@@ -22,7 +22,7 @@ In the popup, name the new variable genre and select OK.
 
 ![](images/genre_make_variable.png)
 
-You will see a few new orange blocks appear in the Variables{:class="block3variables"} menu.
+You will see a few new orange blocks appear in the `Variables`{:class="block3variables"} menu.
 
 --- /task ---
 
@@ -96,7 +96,7 @@ ask [What genre do you want?] and wait
 
 --- task ---
 
-In the orange `Variables`{:class="blocks3variables"} menu, add a `set [genre] to (0)`{:class="blocks3variables"} block, and make sure the pull-down menu in the block is set to **genre**.
+In the orange `Variables`{:class="block3variables"} menu, add a `set [genre] to (0)`{:class="block3variables"} block, and make sure the pull-down menu in the block is set to **genre**.
 
 ```blocks3
 when green flag clicked
@@ -108,7 +108,7 @@ set [genre] to (0)
 
 --- task ---
 
-Back in the blue `Sensing`{:class="blocks3sensing"} menu, drag the round blue `answer`{:class="blocks3sensing"} bubble across and place it in the hole in the `set [genre] to (0)`{class="blocks3variables"} block, replacing the 0:
+Back in the blue `Sensing`{:class="block3sensing"} menu, drag the round blue `answer`{:class="block3sensing"} bubble across and place it in the hole in the `set [genre] to (0)`{:class="block3variables"} block, replacing the 0:
 
 ```blocks3
 when green flag clicked
@@ -145,7 +145,7 @@ You can only use genres that the music database recognises in the answer field. 
 
 --- task ---
 
-From the `Spotify`{:class="blocks3custom::338854"} menu, add a `random song from genre (pop)`{:class="blocks3custom::338854"} block to the bottom of your script
+From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3custom::338854"} block to the bottom of your script
 
 ```blocks3
 when green flag clicked
@@ -158,7 +158,7 @@ random song from genre [pop] :: #338854
 
 --- task ---
 
-From the `Variables`{:class="blocks3variables"} menu, drag the small, round, orange `genre`{:class="blocks3variables"} bubble across and place it inside the hole in the `random song from genre (pop)`{:class="blocks3custom :: 338854"} block, replacing the word pop:
+From the `Variables`{:class="block3variables"} menu, drag the small, round, orange `genre`{:class="block3variables"} bubble across and place it inside the hole in the `random song from genre (pop)`{:class="block3custom :: 338854"} block, replacing the word pop:
 
 ```blocks3
 when green flag clicked
@@ -171,7 +171,7 @@ random song from genre (genre) :: #338854
 
 --- task ---
 
-From the `Spotify`{:class="blocks3custom :: 338854"} menu, add a `play preview`{:class="blocks3custom :: 338854"} block to the bottom of your script:
+From the `Spotify`{:class="block3custom :: 338854"} menu, add a `play preview`{:class="block3custom :: 338854"} block to the bottom of your script:
 
 ```blocks3
 when green flag clicked
@@ -221,7 +221,7 @@ title: Pro tip - song information display
 + Have you inserted the genre bubble in the random song from genre block? It should look like this: 
 
 ```blocks3
-random song from genre (genre :: variable) :: #338854
+random song from genre (genre) :: #338854
 ```
 
 **Your program is playing a song, but you can’t hear anything:**
