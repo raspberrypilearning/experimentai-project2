@@ -1,5 +1,5 @@
 ---
-title: ExperimentAI Stage 2 - Make a Scratch Application
+title: ExperimentAI Stage 2 - Make a Classification Application
 hero_image: images/banner.png
 description: design-project-template description
 version: 4
@@ -15,6 +15,5 @@ steps:
 - title: Collect song data
 - title: Keep on searching
 - title: Design your interface
-- title: Link to your ML model
-- title: Design your interface
+- title: Send data to your ML model
 - title: What next?
