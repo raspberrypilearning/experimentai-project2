@@ -70,6 +70,13 @@ Click on a sprite to add it to your project. You can also upload sprites, or use
 
 --- task ---
 
+**Rename** the sprite to match the playlist label it represents, by using the text field under the Stage:
+![](images/rename_sprite.png)
+
+--- /task ---
+
+--- task ---
+
 **Repeat** these steps until you have a sprite for each of your playlist labels, and one for rejected songs.
 
 --- /task ---
@@ -119,9 +126,16 @@ You can copy whole scripts across to other sprites:
 + Drag the script to the sprite’s thumbnail below the Stage
 + Wait for the thumbnail to ‘wiggle’ side to side
 + Let go of the code by releasing the mouse button
-![An animation showing a code snippet being dragged and dropped onto another sprite to copy it across](images/copy sprite code.gif)
 
+![An animation showing a code snippet being dragged and dropped onto another sprite to copy it across](images/copy sprite code.gif)
 
 --- /collapse ---
 
+Take some time to make sure you like the look of your application and that it is easy to use and understand. If you’re not sure about any of the sprites in the library, you can always create your own with the paint tool, or upload pictures from your computer. 
+
+### Some tips for designing your user interface:
++ Use the blue tick boxes in the menus on the left of your screen to show or hide variables and song information
++ You can move the readouts on your stage by dragging them around
++ You can change the way the readouts look by double-clicking them
++ Using the paint tool on your stage’s backdrop or sprite’s costume is an easy way to add text
 
