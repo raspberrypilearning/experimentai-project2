@@ -23,7 +23,7 @@ play preview :: #338854
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} menu, add a `set [variable] to (0)`{:class="block3variables"} block to your script, to the bottom of the `random song from genre (genre)`{:class="block3custom"} block.
+From the `Variables`{:class="block3variables"} menu, add a `set [variable] to (0)`{:class="block3variables"} block to your script, to the bottom of the `random song from genre (genre)`{:class="block3flag"} block.
 
 ```blocks3
 when green flag clicked
@@ -37,7 +37,7 @@ set [acousticness v] to (0)
 
 --- task ---
 
-From the Spotify menu, take the Song (acousticness score) bubble and place it inside the set [variable] to (0) block, replacing the 0:
+From the Spotify menu, take the `Song (acousticness score)`{:class="block3flag"} bubble and place it inside the `set [variable] to (0)``{:class="block3variables"} block, replacing the 0:
 ![Image showing a rounded spotify audio features bubble that has a pull-down menu which reads acousticness](images/acousticness_score.png)
 
 ```blocks3
@@ -129,7 +129,7 @@ set [speechiness v] to (Song [speechiness v] :: #338854)
 
 --- task ---
 
-Replace the play preview block at the end of your script:
+Replace the `play preview`{:class="block3flag"} block at the end of your script:
 
 ```blocks3
 when green flag clicked

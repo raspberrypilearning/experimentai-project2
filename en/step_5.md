@@ -12,7 +12,7 @@ To get started, delete the cat sprite by clicking the little bin icon on its til
 
 --- task ---
 
-In the orange `Variables`{:class="block3variables"} menu, select **Make a Variable**.
+In the orange `Variables`{:class="block3variables"} menu, select `Make a Variable`.
 ![](images/make_a_variable.png)
 
 --- /task ---
@@ -29,7 +29,7 @@ You will see a few new orange blocks appear in the `Variables`{:class="block3var
 
 --- task ---
 
-Select **Make a Variable** again, but name this variable the first of your selected audio features from earlier.
+Select `Make a Variable` again, but name this variable the first of your selected audio features from earlier.
 
 ![](images/acoustic_make_variable.png)
 
@@ -146,7 +146,7 @@ You can only use genres that the music database recognises in the answer field. 
 
 --- task ---
 
-From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3custom::338854"} block to the bottom of your script
+From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3flag"} block to the bottom of your script
 
 ```blocks3
 when green flag clicked
@@ -159,7 +159,7 @@ random song from genre [pop] :: #338854
 
 --- task ---
 
-From the `Variables`{:class="block3variables"} menu, drag the small, round, orange `genre`{:class="block3variables"} bubble across and place it inside the hole in the `random song from genre (pop)`{:class="block3custom :: 338854"} block, replacing the word pop:
+From the `Variables`{:class="block3variables"} menu, drag the small, round, orange `genre`{:class="block3variables"} bubble across and place it inside the hole in the `random song from genre (pop)`{:class="block3flag"} block, replacing the word pop:
 
 ```blocks3
 when green flag clicked
@@ -172,7 +172,7 @@ random song from genre (genre) :: #338854
 
 --- task ---
 
-From the `Spotify`{:class="block3custom :: 338854"} menu, add a `play preview`{:class="block3custom :: 338854"} block to the bottom of your script:
+From the `Spotify`{:class="block3flag"} menu, add a `play preview`{:class="block3flag"} block to the bottom of your script:
 
 ```blocks3
 when green flag clicked
@@ -242,4 +242,4 @@ title: Your program is playing a song, but you can’t hear anything
 --- /collapse ---
 
 
-In the next step, you will use the green Spotify blocks to search the online music database for songs to label. 
+In the next step, you will use the green `Spotify`{:class="block3flag"} blocks to search the online music database for songs to label. 
