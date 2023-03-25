@@ -164,7 +164,7 @@ From the `Variables`{:class="block3variables"} menu, drag the small, round, oran
 ```blocks3
 when green flag clicked
 ask (What genre do you want?) and wait
-set [genre] to (answer)
+set [genre v] to (answer)
 random song from genre (genre) :: #338854
 ```
 
