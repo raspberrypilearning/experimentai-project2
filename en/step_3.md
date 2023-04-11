@@ -38,7 +38,7 @@ Amazing! Your model is now ready to receive **values**, but it’s missing one i
 
 For example, if you’re listening to a song that you define as a `heartbreak` track, you need to take all the information about it (the values) and label that data with `heartbreak`**.** This puts it into the `heartbreak` class. Once the model groups the data in this way, it can analyse it and then make predictions based on it.
 
-![An image explainng that a class is a category that data can be assigned to with a picture of several different apples in a box, alongside an explanation that a label is applied to a single piece of data to indicate which class it belongs to and a single apple](images/class_vs_label.png)
+![An image explaining that a class is a category that data can be assigned to with a picture of several different apples in a box, alongside an explanation that a label is applied to a single piece of data to indicate which class it belongs to and a single apple](images/class_vs_label.png)
 
 The classes you choose could be for times in your user’s life when they might want specific kinds of music playing, or for specific audio features for the model to prefer or avoid. You could have classes for relaxation, mental focus, or getting physically active just as easily as playlists for quiet, loud or live performances. 
 
