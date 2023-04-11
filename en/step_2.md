@@ -85,9 +85,9 @@ On the flip side; the more audio features you use, the more variables you will n
 --- /task ---
 
 <p style='border-left: solid; border-width:10px; border-color: #ffaeb0; background-color: aliceblue; padding: 10px;'>
-**HOLD UP!**
+<b>**HOLD UP!**</b>
 
-You can’t move forward from this point until you know what your application's **audio features** are - you need to know this to be able to create a machine learning model!
+You can’t move forward from this point until you know what your application's <b>audio features</b> are - you need to know this to be able to create a machine learning model!
 
 Write down which audio features you will be tracking for the next step somewhere - it will make it quicker if you have a reference.
 </p>
