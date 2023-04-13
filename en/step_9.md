@@ -172,7 +172,7 @@ Select the `Control`{:class="block3control"} menu and add a `wait (1) second`{:c
 ```blocks3
 when I receive [reject v]
 add training data acousticness (acousticness) :: #4b4c60
-wait (1) second
+wait (1) second :: #FCBF28
 ```
 
 --- /task ---
@@ -184,7 +184,7 @@ Select the `Spotify`{:class="block3flag"} menu and add a `stop`{:class="block3fl
 ```blocks3
 when I receive [reject v]
 add training data acousticness (acousticness) :: #4b4c60
-wait (1) second
+wait (1) second :: #FCBF28
 stop :: #338854
 ```
 
@@ -200,7 +200,7 @@ Select the `Events`{:class="block3vents"} menu and add a `broadcast [Find Song]`
 ```blocks3
 when I receive [reject v]
 add training data acousticness (acousticness) :: #4b4c60
-wait (1) second
+wait (1) second :: #FCBF28
 stop :: #338854
 broadcast [Find song v]
 ```
