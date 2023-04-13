@@ -4,13 +4,11 @@ First, create your machine learning model on Machine Learning for Kids:
 
 --- task ---
 
-Open the website [Machine Learning for Kids](https://machinelearningforkids.co.uk){:target="_blank"}.
+Open the website [Machine Learning for Kids](https://machinelearningforkids.co.uk/#!/login){:target="_blank"}.
 
 --- /task ---
 
 --- task ---
-
-Select Log in from the top menu. 
 
 In the screen that appears, choose **Log In** if your mentor gave you some login details. Enter your username and password on the next screen.
 
