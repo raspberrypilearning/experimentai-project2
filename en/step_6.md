@@ -37,7 +37,7 @@ set [acousticness v] to (0)
 
 --- task ---
 
-From the Spotify menu, take the `Song (acousticness score)`{:class="block3flag"} bubble and place it inside the `set [variable] to (0)``{:class="block3variables"} block, replacing the 0:
+From the Spotify menu, take the `Song (acousticness score)`{:class="block3flag"} bubble and place it inside the `set [variable] to (0)`{:class="block3variables"} block, replacing the 0:
 ![Image showing a rounded spotify audio features bubble that has a pull-down menu which reads acousticness](images/acousticness_score.png)
 
 ```blocks3
@@ -64,7 +64,7 @@ set [acousticness v] to (Song [acousticness score v] :: #338854)
 
 **Right-click** (or two-finger click on Mac) on the `set [variable] to Song (feature)`{:class="block3variable"} block you just created and choose **Duplicate**:
 
-![Image showing the scratch right-click menu with the Duplicate option highlighted](images\images/duplicate_variable.png)
+![Image showing the scratch right-click menu with the Duplicate option highlighted](images/duplicate_variable.png)
 
 --- /task ---
 

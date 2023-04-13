@@ -60,7 +60,7 @@ next costume
 
 --- task ---
 
-From the pull-down menu in the block choose New Message:
+From the pull-down menu in the block choose `New Message`:
 
 ![](images/classify_broadcast2.png)
 
@@ -195,7 +195,7 @@ Finally, get your script to search for another song.
 --- task ---
 
 
-Select the `Events`{:class="block3vents"} menu and add a `broadcast [Find Song]`{:class="block3vents"} block, making sure that the pull-down menu in the block has `Find Song` selected:
+Select the `Events`{:class="block3events"} menu and add a `broadcast [Find Song]`{:class="block3events"} block, making sure that the pull-down menu in the block has `Find Song` selected:
 
 ```blocks3
 when I receive [reject v]

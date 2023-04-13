@@ -148,7 +148,7 @@ Some good places to start might be: `pop`, `rock`, `punk`, `dance`, `party`, `pr
 
 --- task ---
 
-From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3flag"} block to the bottom of your script
+From the `Spotify`{:class="block3flag"} menu, add a `random song from genre (pop)`{:class="block3flag"} block to the bottom of your script
 
 ```blocks3
 when green flag clicked
