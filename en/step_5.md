@@ -140,13 +140,15 @@ title: Pro Tip - getting the right genre
 
 You can only use genres that the music database recognises in the answer field. If you enter something it doesn’t recognise, your program won’t play any music. (That includes bad spelling and typos!)
 
+Some good places to start might be: `pop`, `rock`, `punk`, `dance`, `party`, `pride` or `indie`. You can also [browse the genres available on Spotify here](https://open.spotify.com/genre/hub-browse-grid){:target="_blank"}.
+
 --- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-From the `Spotify`{:class="block3custom::338854"} menu, add a `random song from genre (pop)`{:class="block3flag"} block to the bottom of your script
+From the `Spotify`{:class="block3flag"} menu, add a `random song from genre (pop)`{:class="block3flag"} block to the bottom of your script
 
 ```blocks3
 when green flag clicked

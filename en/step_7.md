@@ -156,7 +156,7 @@ title: Bonus Feature - Skip repeated tracks
 From the Events menu, add a `When [space] key pressed block`{:class="block3events"} to your workspace:
 
 ```blocks3
-when [space v] key pressed
+when [space v] key pressed :: #FBAA2F
 ```
 
 --- /task ---
@@ -166,7 +166,7 @@ when [space v] key pressed
 From the Events menu, add a `broadcast [Find Song]`{:class="block3events"} block to the bottom.
 
 ```blocks3
-when [space v] key pressed
+when [space v] key pressed :: #FBAA2F
 broadcast [Find song v]
 ```
 
