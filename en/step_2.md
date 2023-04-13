@@ -89,5 +89,5 @@ On the flip side; the more audio features you use, the more variables you will n
 
 You can’t move forward from this point until you know what your application's <b>audio features</b> are - you need to know this to be able to create a machine learning model!
 
-Write down which audio features you will be tracking for the next step somewhere - it will make it quicker if you have a reference.
+Write down which audio features you will be tracking for the next step in your **blueprint document** - it will make it quicker if you have a reference.
 </p>
