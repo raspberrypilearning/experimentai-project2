@@ -140,6 +140,8 @@ title: Pro Tip - getting the right genre
 
 You can only use genres that the music database recognises in the answer field. If you enter something it doesn’t recognise, your program won’t play any music. (That includes bad spelling and typos!)
 
+Some good places to start might be: `pop`, `rock`, `punk`, `dance`, `party`, `pride` or `indie`. You can also [browse the genres available on Spotify here](https://open.spotify.com/genre/hub-browse-grid){:target="_blank"}.
+
 --- /collapse ---
 
 --- /task ---
